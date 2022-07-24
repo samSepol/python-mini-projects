@@ -8,7 +8,7 @@ score = 0
 
 print(logo)
 A = choice(data)
-
+# B = choice(data)
 
 while is_game_over != True:
     B = choice(data)
@@ -26,7 +26,7 @@ while is_game_over != True:
     A = B
 
     check_user = input(
-        "Who is more popular over the internet ? Type 'a' or 'b' ")
+        "Who is more popular over the internet ? Type 'a' or 'b' ").lower()
     if check_user == greater:
         score += 1
         print(f"You're right! Current score: {score}")

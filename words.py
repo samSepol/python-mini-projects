@@ -213,3 +213,7 @@ word_list = [
     'zodiac',
     'zombie',
 ]
+
+for word in word_list:
+    if word.startswith("s"):
+        print(word)
